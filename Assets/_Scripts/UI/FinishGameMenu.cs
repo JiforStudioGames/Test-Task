@@ -9,7 +9,6 @@ public class FinishGameMenu : MonoBehaviour
     [SerializeField] private GameObject finishGameMenu;
 
     [SerializeField] private TextMeshProUGUI textFinishGame;
-    // Start is called before the first frame update
     private void OnEnable()
     {
         RandomNumberSystem.OnGuessedCurrentNumber += ActivateFinishGameMenu;
